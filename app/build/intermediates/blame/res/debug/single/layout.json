@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\uros.milosevic\\AndroidStudioProjects\\Blueduino\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\uros.milosevic\\AndroidStudioProjects\\Blueduino\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\uros.milosevic\\AndroidStudioProjects\\Blueduino\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_operate.xml",
+        "source": "C:\\Users\\uros.milosevic\\AndroidStudioProjects\\Blueduino\\app\\src\\main\\res\\layout\\activity_operate.xml"
+    },
+    {
+        "merged": "C:\\Users\\uros.milosevic\\AndroidStudioProjects\\Blueduino\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ble_list_item.xml",
+        "source": "C:\\Users\\uros.milosevic\\AndroidStudioProjects\\Blueduino\\app\\src\\main\\res\\layout\\ble_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\uros.milosevic\\AndroidStudioProjects\\Blueduino\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pin_info_list_item.xml",
+        "source": "C:\\Users\\uros.milosevic\\AndroidStudioProjects\\Blueduino\\app\\src\\main\\res\\layout\\pin_info_list_item.xml"
+    }
+]
