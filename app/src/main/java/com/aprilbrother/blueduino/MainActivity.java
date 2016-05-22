@@ -21,7 +21,7 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
-	private final int SCAN_PERIOD = 60000;
+	private final int SCAN_PERIOD = 5000;
 
 	private final int REQUEST_ENABLE_BT = 1;
 
@@ -82,7 +82,7 @@ public class MainActivity extends Activity {
 	}
 
 	private void showDeviceList() {
-		lv = (ListView) findViewById(R.id.lv_blueuino_main);
+		lv = (ListView) findViewById(R.id.lv_blueduino_main);
 		lv.setAdapter(adapter);
 		lv.setOnItemClickListener(new OnItemClickListener() {
 
@@ -91,7 +91,7 @@ public class MainActivity extends Activity {
 					final int position, long id) {
 
 				 Intent intent = new
-				 Intent(MainActivity.this,OperateActivity.class);
+				 Intent(MainActivity.this,CommunicateActivity.class);
 				 Bundle bundle = new Bundle();
 				 bundle.putParcelable("device", devices.get(position));
 				 intent.putExtras(bundle);

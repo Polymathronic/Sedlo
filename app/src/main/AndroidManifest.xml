@@ -26,8 +26,8 @@
             </intent-filter>
         </activity>
         
-        <activity android:name="com.aprilbrother.blueduino.OperateActivity" >
-        </activity>
+        <activity android:name="com.aprilbrother.blueduino.OperateActivity" ></activity>
+        <activity android:name="com.aprilbrother.blueduino.CommunicateActivity" ></activity>
         
         <service android:enabled="true" android:name=".UartService" />
         

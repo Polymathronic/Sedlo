@@ -60,9 +60,13 @@ ADDED from C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\src\main\
 	android:name
 		ADDED from C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\src\main\AndroidManifest.xml:25:27-74
 activity#com.aprilbrother.blueduino.OperateActivity
-ADDED from C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\src\main\AndroidManifest.xml:29:9-30:20
+ADDED from C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\src\main\AndroidManifest.xml:29:9-89
 	android:name
 		ADDED from C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\src\main\AndroidManifest.xml:29:19-76
+activity#com.aprilbrother.blueduino.CommunicateActivity
+ADDED from C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\src\main\AndroidManifest.xml:30:9-93
+	android:name
+		ADDED from C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\src\main\AndroidManifest.xml:30:19-80
 service#com.aprilbrother.blueduino.UartService
 ADDED from C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\src\main\AndroidManifest.xml:32:9-71
 	android:enabled

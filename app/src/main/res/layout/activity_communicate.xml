@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@android:color/background_dark">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tf_chat"
+        android:layout_weight="0.41"
+        android:background="#222222"
+        android:textColor="#c4c4c4"
+        android:editable="true" />
+
+    <Button
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:id="@+id/sendButton"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sendMessage" />
+</LinearLayout>

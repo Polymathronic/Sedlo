@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\uros.milosevic\\AndroidStudioProjects\\Blueduino\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_communicate.xml",
+        "source": "C:\\Users\\uros.milosevic\\AndroidStudioProjects\\Blueduino\\app\\src\\main\\res\\layout\\activity_communicate.xml"
+    },
+    {
         "merged": "C:\\Users\\uros.milosevic\\AndroidStudioProjects\\Blueduino\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "C:\\Users\\uros.milosevic\\AndroidStudioProjects\\Blueduino\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
