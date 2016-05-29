@@ -1,6 +1,2 @@
 CHANGED,C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\aprilbrother\blueduino\CommunicateActivity$2$override.class
 CHANGED,C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\aprilbrother\blueduino\CommunicateActivity$3$override.class
-CHANGED,C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\aprilbrother\blueduino\CommunicateActivity$override.class
-CHANGED,C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\aprilbrother\blueduino\CommunicateActivity$3$1$override.class
-CHANGED,C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\aprilbrother\blueduino\CommunicateActivity$3$2$override.class

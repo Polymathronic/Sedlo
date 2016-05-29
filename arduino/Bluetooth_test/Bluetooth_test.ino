@@ -1,19 +1,39 @@
 #define BAUD_RATE 9600
 
+// Temp variable to receive messages
 String tmp; 
+
+// Coordinates
+float x, y;
+String msg;
+
+void shuffleCoordinates(){
+  // Force Blueduino to start sending
+  Serial.read();
+  // Initialiaze random number generator with a fairly random input, such as analogRead() on an unconnected pin
+  randomSeed(analogRead(0));
+  x = random(1,3);
+  
+  randomSeed(analogRead(0));
+  y = random(1,3);
+
+  x += float(random(1,4)) / 4.0;
+  y += float(random(1,4)) / 4.0;
+
+  msg = "X: " + String(x) + ", Y: " + String(y);
+}
 
 void setup() {
   Serial.begin(BAUD_RATE);
   Serial1.begin(BAUD_RATE); 
-  while (!Serial) {
-    ; // wait for serial port to connect. Needed for Leonardo only
-  }
 
-  Serial.println("Hello BlueDuino!");
+  shuffleCoordinates();
+  
+  Serial.println(msg);
 }
 
 void loop() {
-
+  // Read input from phone
   while (Serial1.available() > 0)  {
     tmp += char(Serial1.read());
     delay(2);
@@ -24,7 +44,16 @@ void loop() {
     tmp = "";
   }
 
-  if (Serial.available()) {
-    Serial1.write(Serial.read());
-  }
+  shuffleCoordinates();
+  
+  delay(5000);
+  
+  char* buf = (char*) malloc(sizeof(char)*msg.length()+1);
+  msg.toCharArray(buf, msg.length()+1);
+
+  // Send to phone
+  Serial1.write(buf);
+
+  Serial.println(msg + ". Freeing the memory");
+  free(buf);
 }

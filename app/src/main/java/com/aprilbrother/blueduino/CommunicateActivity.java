@@ -34,6 +34,7 @@ import android.widget.Toast;
 import com.aprilbrother.blueduino.bean.PinInfo;
 import com.aprilbrother.blueduino.contants.Contants;
 import com.aprilbrother.blueduino.globalvariables.GlobalVariables;
+import com.aprilbrother.blueduino.utils.ByteUtil;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
@@ -42,6 +43,7 @@ import java.util.ArrayList;
 public class CommunicateActivity extends Activity {
 
 	private static final int UART_PROFILE_DISCONNECTED = 21;
+	public static byte[] mValues = new byte[0];
 
 	private UartService mService = null;
 	private int mState = UART_PROFILE_DISCONNECTED;
@@ -84,18 +86,6 @@ public class CommunicateActivity extends Activity {
 					// waiting for device connect
 					Thread.sleep(3000);
 
-					// 获取引脚个数
-					// get totol pin count
-					ABProtocol.queryTotalPinCount(mService);
-
-					// 等待写入C返回值
-					// waiting for the return when wirte C
-					Thread.sleep(500);
-
-					// 获取引脚信息
-					// get all pins info
-					ABProtocol.queryPinAll(mService);
-
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
@@ -109,9 +99,9 @@ public class CommunicateActivity extends Activity {
 		//ListView lv = (ListView) findViewById(R.id.lv_blueduino_infos);
 		//adapter = new MyAdapter();
 		//lv.setAdapter(adapter);
-		progressDialog = ProgressDialog.show(CommunicateActivity.this,
-				"Loading...", "Please wait...", true, false);
-		progressDialog.setCancelable(true);
+		//progressDialog = ProgressDialog.show(CommunicateActivity.this,
+		//		"Loading...", "Please wait...", true, false);
+		//progressDialog.setCancelable(true);
 
 	}
 
@@ -163,6 +153,7 @@ public class CommunicateActivity extends Activity {
 
 		public void onReceive(Context context, Intent intent) {
 			String action = intent.getAction();
+			String responseString;
 
 			// *********************//
 			if (action.equals(UartService.ACTION_GATT_CONNECTED)) {
@@ -193,32 +184,10 @@ public class CommunicateActivity extends Activity {
 
 				final byte[] txValue = intent
 						.getByteArrayExtra(UartService.EXTRA_DATA);
+				responseString = new String(txValue);
 				try {
-					// 返回的数据同上一个一样则不解析
-					// if the value == last value don't parar
-					if (lastValue != null) {
-//						if (!Arrays.equals(lastValue, txValue)) {
-						synchronized (CommunicateActivity.class) {
-							if(lastValue != txValue){
-								lastValue = txValue;
-								ABProtocol.parseData(txValue);
-								if (txValue.length != 2 && txValue.length != 20) {
-									pinsInfo = GlobalVariables.pinInfos;
-									//handler.sendEmptyMessage(0);
-									progressDialog.dismiss();
-								}
-							}
-						}
-
-					} else {
-						lastValue = txValue;
-						ABProtocol.parseData(txValue);
-						if (txValue.length != 2 && txValue.length != 20) {
-							pinsInfo = GlobalVariables.pinInfos;
-							//handler.sendEmptyMessage(0);
-							progressDialog.dismiss();
-						}
-					}
+					TextView response = (TextView)findViewById(R.id.responseView);
+					response.append("Response: " + responseString + "\n");
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
