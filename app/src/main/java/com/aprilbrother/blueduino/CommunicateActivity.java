@@ -62,11 +62,13 @@ public class CommunicateActivity extends Activity {
 		setContentView(R.layout.activity_communicate);
 		super.onCreate(savedInstanceState);
 
-		init();
+		if(savedInstanceState != null) {
+			init();
 
-		service_init();
+			service_init();
 
-		setViewData();
+			setViewData();
+		}
 
 	}
 
@@ -115,6 +117,14 @@ public class CommunicateActivity extends Activity {
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
+	}
+
+	public void visualizePad(View view){
+		Intent intent = new
+				Intent(CommunicateActivity.this,VisualizeActivity.class);
+		Bundle bundle = new Bundle();
+		intent.putExtras(bundle);
+		startActivity(intent);
 	}
 	/**
 	 * 连接服务 connect the service to operate bluetooth

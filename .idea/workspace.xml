@@ -10,6 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa8cea9f-56e5-4859-b3f0-f8f60eea94b1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/CanvasView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/VisualizeActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_visualize.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/reload-changes.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
@@ -24,7 +28,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/CommunicateActivity$3$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/CommunicateActivity$3$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/CommunicateActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/CommunicateActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/CommunicateActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/CommunicateActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/MainActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/MainActivity$MyAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/MainActivity$MyAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/MainActivity$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/MainActivity$ViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/OperateActivity$MyAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/OperateActivity$MyAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/OperateActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/OperateActivity.class" />
@@ -33,13 +41,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/R$menu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/aprilbrother/blueduino/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/CommunicateActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/CommunicateActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/CommunicateActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/CommunicateActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/CommunicateActivity$3$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/CommunicateActivity$3$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/CommunicateActivity$3$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/CommunicateActivity$3$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/CommunicateActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/CommunicateActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/CommunicateActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/CommunicateActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/MainActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/MainActivity$MyAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/MainActivity$MyAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/MainActivity$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/MainActivity$ViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/OperateActivity$MyAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/OperateActivity$MyAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/OperateActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/aprilbrother/blueduino/OperateActivity.class" />
@@ -58,7 +71,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/CommunicateActivity$3$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/CommunicateActivity$3$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/CommunicateActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/CommunicateActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/CommunicateActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/CommunicateActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/MainActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/MainActivity$MyAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/MainActivity$MyAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/MainActivity$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/MainActivity$ViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/OperateActivity$MyAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/OperateActivity$MyAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/OperateActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/OperateActivity.class" />
@@ -68,18 +85,29 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aprilbrother/blueduino/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/CommunicateActivity$1$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/CommunicateActivity$1$override.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/CommunicateActivity$2$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/CommunicateActivity$2$override.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/CommunicateActivity$3$1$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/CommunicateActivity$3$1$override.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/CommunicateActivity$3$2$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/CommunicateActivity$3$2$override.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/CommunicateActivity$3$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/CommunicateActivity$3$override.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/CommunicateActivity$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/CommunicateActivity$override.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/MainActivity$MyAdapter$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/MainActivity$MyAdapter$override.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/MainActivity$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/MainActivity$override.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/OperateActivity$MyAdapter$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/OperateActivity$MyAdapter$override.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/OperateActivity$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/OperateActivity$override.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/R$id$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/R$id$override.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/R$layout$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/aprilbrother/blueduino/R$layout$override.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/CommunicateActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/CommunicateActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/CommunicateActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/CommunicateActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/CommunicateActivity$3$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/CommunicateActivity$3$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/CommunicateActivity$3$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/CommunicateActivity$3$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/CommunicateActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/CommunicateActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/CommunicateActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/CommunicateActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/MainActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/MainActivity$MyAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/MainActivity$MyAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/MainActivity$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/MainActivity$ViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/OperateActivity$MyAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/OperateActivity$MyAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/OperateActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/aprilbrother/blueduino/OperateActivity.class" />
@@ -93,13 +121,22 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/aprilbrother/blueduino/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/aprilbrother/blueduino/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/reload-changes.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/reload-changes.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/instant-run/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/instant-run/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/coldswap.marker" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/coldswap.marker" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.crc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_communicate.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_communicate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/CommunicateActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/CommunicateActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_communicate.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_communicate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arduino/Bluetooth_test/Bluetooth_test.ino" afterPath="$PROJECT_DIR$/arduino/Bluetooth_test/Bluetooth_test.ino" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
     </list>
     <ignored path="Blueduino.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -131,18 +168,69 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="76" column="49" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="49" />
-              <folding />
+            <state vertical-scroll-proportion="4.0">
+              <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
+              <folding>
+                <element signature="e#2334#2769#0" expanded="true" />
+                <element signature="e#2768#2769#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommunicateActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CommunicateActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/CommunicateActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60714287">
-              <caret line="189" column="70" selection-start-line="189" selection-start-column="70" selection-end-line="189" selection-end-column="70" />
+            <state vertical-scroll-proportion="-4.839286">
+              <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+              <folding>
+                <element signature="e#3628#3629#0" expanded="true" />
+                <element signature="e#3672#3673#0" expanded="true" />
+                <element signature="e#6362#6363#0" expanded="true" />
+                <element signature="e#6421#6422#0" expanded="true" />
+                <element signature="e#6780#6781#0" expanded="true" />
+                <element signature="e#6801#6802#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VisualizeActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/VisualizeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.896552">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CanvasView.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/CanvasView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.63714635">
+              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3452#3453#0" expanded="true" />
+                <element signature="e#3488#3489#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_visualize.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_visualize.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.5454545">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -150,11 +238,11 @@
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="android-designer">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.92727274">
               <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
               <folding />
             </state>
@@ -164,8 +252,8 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="81" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
+            <state vertical-scroll-proportion="-10.461538">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -173,38 +261,12 @@
       </file>
       <file leaf-file-name="activity_communicate.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_communicate.xml">
-          <provider selected="true" editor-type-id="android-designer">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.090909">
               <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ble_list_item.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/ble_list_item.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pin_info_list_item.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pin_info_list_item.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -228,6 +290,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -1779,14 +1842,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/build/generated/source/r/debug/com/aprilbrother/blueduino/R.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/ABProtocol.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/OperateActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_communicate.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/CanvasView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/VisualizeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/CommunicateActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_visualize.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/CanvasView.java" />
       </list>
     </option>
   </component>
@@ -1821,10 +1888,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1841,6 +1906,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blueduino" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1861,8 +1948,24 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blueduino" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1870,6 +1973,9 @@
     <property name="device.picker.selection" value="CB5A1RH86B" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.aprilbrother.blueduino" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.aprilbrother.blueduino" />
     </key>
@@ -2169,7 +2275,8 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3351893" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37750557" sideWeight="0.49573562" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37750557" sideWeight="0.49573562" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2178,6 +2285,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15298508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -2186,10 +2294,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2206,46 +2312,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/UartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/CommunicateActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="81" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_communicate.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -2300,7 +2371,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="93" column="48" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
-          <folding />
+          <folding>
+            <element signature="e#2334#2769#0" expanded="true" />
+            <element signature="e#2768#2769#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2368,7 +2442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2393,7 +2466,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2334#2769#0" expanded="true" />
+            <element signature="e#2768#2769#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2453,7 +2529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2461,7 +2536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2493,7 +2567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2501,7 +2574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2526,18 +2598,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-18/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3673077">
-          <caret line="549" column="16" selection-start-line="549" selection-start-column="16" selection-end-line="549" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/CommunicateActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#3628#3629#0" expanded="true" />
+            <element signature="e#3672#3673#0" expanded="true" />
+            <element signature="e#6362#6363#0" expanded="true" />
+            <element signature="e#6421#6422#0" expanded="true" />
+            <element signature="e#6780#6781#0" expanded="true" />
+            <element signature="e#6801#6802#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2552,7 +2624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1184669">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2589,40 +2660,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/UartService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.8486485">
           <caret line="388" column="24" selection-start-line="388" selection-start-column="24" selection-end-line="388" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="81" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_communicate.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -2642,14 +2683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="49" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/ABProtocol.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2660,11 +2693,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_communicate.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.090909">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-18/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3710692">
+          <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
+          <folding>
+            <element signature="e#3315#3316#0" expanded="true" />
+            <element signature="e#3366#3367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/CommunicateActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60714287">
-          <caret line="189" column="70" selection-start-line="189" selection-start-column="70" selection-end-line="189" selection-end-column="70" />
+        <state vertical-scroll-proportion="-4.839286">
+          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+          <folding>
+            <element signature="e#3628#3629#0" expanded="true" />
+            <element signature="e#3672#3673#0" expanded="true" />
+            <element signature="e#6362#6363#0" expanded="true" />
+            <element signature="e#6421#6422#0" expanded="true" />
+            <element signature="e#6780#6781#0" expanded="true" />
+            <element signature="e#6801#6802#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.0">
+          <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
+          <folding>
+            <element signature="e#2334#2769#0" expanded="true" />
+            <element signature="e#2768#2769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_visualize.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5454545">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.92727274">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/VisualizeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.896552">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-18/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37199125">
+          <caret line="1646" column="16" selection-start-line="1646" selection-start-column="16" selection-end-line="1646" selection-end-column="16" />
+          <folding>
+            <element signature="e#47203#47204#0" expanded="true" />
+            <element signature="e#47254#47255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/aprilbrother/blueduino/CanvasView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63714635">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3452#3453#0" expanded="true" />
+            <element signature="e#3488#3489#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
