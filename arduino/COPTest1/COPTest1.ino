@@ -92,7 +92,11 @@ void loop() {
   copY = voltageY / voltageSum;  //Y coordinate
   
   // print out COP coordinates
+  Serial.print(inVoltage11); Serial.print(", "); Serial.print(inVoltage12); Serial.print(", "); Serial.println(inVoltage13);
+  Serial.print(inVoltage21); Serial.print(", "); Serial.print(inVoltage22); Serial.print(", "); Serial.println(inVoltage23);
+  Serial.print(inVoltage31); Serial.print(", "); Serial.print(inVoltage32); Serial.print(", "); Serial.println(inVoltage33);
   Serial.print(copX); Serial.print(", "); Serial.println(copY);
+  Serial.println("");
    delay(1000);
 }
 
