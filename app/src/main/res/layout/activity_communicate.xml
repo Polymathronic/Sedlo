@@ -37,5 +37,6 @@
         android:id="@+id/responseView"
         android:layout_weight="0.41"
         android:background="#eaeaea"
-        android:scrollbars = "vertical" />
+        android:scrollbars = "vertical"
+        android:freezesText="true" />
 </LinearLayout>
