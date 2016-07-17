@@ -57,6 +57,7 @@ public class CommunicateActivity extends Activity {
 		setContentView(R.layout.activity_communicate);
 
 		// Set Matrix view
+		// (Also commented out customCanvas references (3) in BroadcastReceiver
 		//setContentView(R.layout.activity_visualize);
 		//customCanvas = (CanvasView) findViewById(R.id.signature_canvas);
 
