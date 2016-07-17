@@ -17,6 +17,7 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
 import android.support.v4.content.LocalBroadcastManager;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
@@ -27,6 +28,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.ScrollView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -37,7 +39,9 @@ import com.aprilbrother.blueduino.globalvariables.GlobalVariables;
 import com.aprilbrother.blueduino.utils.ByteUtil;
 
 import java.io.UnsupportedEncodingException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 
 @SuppressLint("NewApi")
 public class CommunicateActivity extends Activity {
@@ -55,6 +59,8 @@ public class CommunicateActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// Set text view
 		setContentView(R.layout.activity_communicate);
+		TextView tv = (TextView) findViewById(R.id.responseView);
+		tv.setMovementMethod(new ScrollingMovementMethod());
 
 		// Set Matrix view
 		// (Also commented out customCanvas references (3) in BroadcastReceiver
@@ -188,8 +194,11 @@ public class CommunicateActivity extends Activity {
 				//float y = Float.parseFloat(xy[1])/2 * customCanvas.height;
 
 				try {
+					Calendar cal = Calendar.getInstance();
+					SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+
 					TextView response = (TextView)findViewById(R.id.responseView);
-					response.append("Response: " + responseString + "\n");
+					response.append(sdf.format(cal.getTime()) + " | Response: " + responseString + "\n");
 
 					//customCanvas.startTouch(x,y);
 				} catch (Exception e) {

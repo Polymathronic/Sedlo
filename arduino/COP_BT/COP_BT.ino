@@ -57,6 +57,7 @@ void setup() {
   
   //serial communication at 9600b/s
   Serial.begin(9600);
+  //BT communication at 9600b/s
   Serial1.begin(9600); 
 }
  
