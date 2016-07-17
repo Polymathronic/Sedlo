@@ -68,12 +68,6 @@ public class MainActivity extends Activity {
 		showDeviceList();
 	}
 
-	public void simulate(View view){
-		Intent intent = new
-				Intent(MainActivity.this,CommunicateActivity.class);
-		startActivity(intent);
-	}
-
 	/**
 	 * 查找蓝牙设备
 	 */

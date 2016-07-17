@@ -12,15 +12,15 @@ void shuffleCoordinates(){
   Serial.read();
   // Initialiaze random number generator with a fairly random input, such as analogRead() on an unconnected pin
   randomSeed(analogRead(0));
-  x = random(1,3);
+  x = random(0,2);
   
   randomSeed(analogRead(0));
-  y = random(1,3);
+  y = random(0,2);
 
   x += float(random(1,4)) / 4.0;
   y += float(random(1,4)) / 4.0;
 
-  msg = "X: " + String(x) + ", Y: " + String(y);
+  msg = String(x) + "," + String(y);
 }
 
 void setup() {
@@ -36,6 +36,11 @@ void loop() {
   // Read input from phone
   while (Serial1.available() > 0)  {
     tmp += char(Serial1.read());
+    delay(2);
+  }
+
+  while (Serial.available() > 0)  {
+    tmp += char(Serial.read());
     delay(2);
   }
 

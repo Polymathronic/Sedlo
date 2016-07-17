@@ -43,32 +43,32 @@ import java.util.ArrayList;
 public class CommunicateActivity extends Activity {
 
 	private static final int UART_PROFILE_DISCONNECTED = 21;
-	public static byte[] mValues = new byte[0];
 
 	private UartService mService = null;
 	private int mState = UART_PROFILE_DISCONNECTED;
 	private static final int UART_PROFILE_CONNECTED = 20;
-
-	private ProgressDialog progressDialog;
 	private BluetoothDevice device;
 
-	private ArrayList<PinInfo> pinsInfo = new ArrayList<PinInfo>();
-
-	byte[] lastValue;
-
+	private CanvasView customCanvas;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		setContentView(R.layout.activity_communicate);
+		// Set text view
+		//setContentView(R.layout.activity_communicate);
+
+		// Set Matrix view
+		setContentView(R.layout.activity_visualize);
+		customCanvas = (CanvasView) findViewById(R.id.signature_canvas);
+
 		super.onCreate(savedInstanceState);
 
-		if(savedInstanceState != null) {
+		//if(savedInstanceState != null) {
 			init();
 
 			service_init();
 
 			setViewData();
-		}
+		//}
 
 	}
 
@@ -77,14 +77,12 @@ public class CommunicateActivity extends Activity {
 			@Override
 			public void run() {
 				try {
-					// 等待成功绑定服务
-					// waiting for connect service
+					// waiting for service to connect
 					Thread.sleep(500);
 
 					// connect device
 					connectService(device);
 
-					// 等待建立连接成功
 					// waiting for device connect
 					Thread.sleep(3000);
 
@@ -98,13 +96,6 @@ public class CommunicateActivity extends Activity {
 	private void init() {
 		Bundle bundle = getIntent().getExtras();
 		device = bundle.getParcelable("device");
-		//ListView lv = (ListView) findViewById(R.id.lv_blueduino_infos);
-		//adapter = new MyAdapter();
-		//lv.setAdapter(adapter);
-		//progressDialog = ProgressDialog.show(CommunicateActivity.this,
-		//		"Loading...", "Please wait...", true, false);
-		//progressDialog.setCancelable(true);
-
 	}
 
 	public void sendMessage(View view){
@@ -122,15 +113,10 @@ public class CommunicateActivity extends Activity {
 	public void visualizePad(View view){
 		Intent intent = new
 				Intent(CommunicateActivity.this,VisualizeActivity.class);
-		Bundle bundle = new Bundle();
-		intent.putExtras(bundle);
 		startActivity(intent);
 	}
 	/**
-	 * 连接服务 connect the service to operate bluetooth
-	 *
-	 * @param device
-	 *            连接服务的蓝牙设备
+	 * connect the service to operate bluetooth
 	 */
 	private void connectService(BluetoothDevice device) {
 		mService.connect(device.getAddress());
@@ -146,7 +132,7 @@ public class CommunicateActivity extends Activity {
 	// UART service connected/disconnected
 	private ServiceConnection mServiceConnection = new ServiceConnection() {
 		public void onServiceConnected(ComponentName className,
-				IBinder rawBinder) {
+									   IBinder rawBinder) {
 			mService = ((UartService.LocalBinder) rawBinder).getService();
 			if (!mService.initialize()) {
 				finish();
@@ -195,9 +181,14 @@ public class CommunicateActivity extends Activity {
 				final byte[] txValue = intent
 						.getByteArrayExtra(UartService.EXTRA_DATA);
 				responseString = new String(txValue);
+				String[] xy = responseString.split(",");
+				float x = Float.parseFloat(xy[0])/2 * customCanvas.width;
+				float y = Float.parseFloat(xy[1])/2 * customCanvas.height;
 				try {
-					TextView response = (TextView)findViewById(R.id.responseView);
-					response.append("Response: " + responseString + "\n");
+					//TextView response = (TextView)findViewById(R.id.responseView);
+					//response.append("Response: " + responseString + "\n");
+
+					customCanvas.startTouch(x,y);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}

@@ -103,10 +103,11 @@ public class CanvasView extends View {
     }
 
     // when ACTION_DOWN start touch according to the x,y values
-    private void startTouch(float x, float y) {
+    public void startTouch(float x, float y) {
         mPath.moveTo(x, y);
         mX = x;
         mY = y;
+        invalidate();
     }
 
     public void clearCanvas() {
@@ -117,6 +118,7 @@ public class CanvasView extends View {
     // when ACTION_UP stop touch
     private void upTouch() {
         mPath.lineTo(mX, mY);
+        invalidate();
     }
 
     //override the onTouchEvent
@@ -128,11 +130,9 @@ public class CanvasView extends View {
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 startTouch(x, y);
-                invalidate();
                 break;
             case MotionEvent.ACTION_UP:
                 upTouch();
-                invalidate();
                 break;
         }
         return true;

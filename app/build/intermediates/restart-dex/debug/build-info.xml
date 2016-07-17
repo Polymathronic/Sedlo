@@ -4,77 +4,34 @@
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="624054319918553"
-    verifier="COMPATIBLE" >
+    timestamp="645214711550721" >
 
     <task
         name="javac"
-        duration="229" />
+        duration="245" />
     <task
         name="instant-run-dex"
-        duration="443" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="35" />
+        duration="20" />
     <task
         name="verifier"
-        duration="6" />
+        duration="4" />
 
     <artifact
-        location="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+        type="DEX" />
 
-    <build timestamp="620193958740739" >
+    <build timestamp="642469894108679" >
         <artifact
             location="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="623067524545821" >
+    <build timestamp="645214711550721" >
         <artifact
             location="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
             type="DEX" />
-    </build>
-    <build
-        timestamp="623467496774239"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\builds\debug\623467496774239\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="623554327677511"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\builds\debug\623554327677511\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="623570468916600"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\builds\debug\623570468916600\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="623584411120949"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\builds\debug\623584411120949\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="623939544089868"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\builds\debug\623939544089868\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="624054319918553"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

@@ -1,1 +1,0 @@
-CHANGED,C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\aprilbrother\blueduino\CanvasView.class
