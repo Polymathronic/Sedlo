@@ -1,3 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="aba4f063a6e474080e8067326f8dfd1f9e951698">
+        <dex dex="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2533f2643a17ce4c1925d611a0d49a38d01609ab\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\uros.milosevic\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_6e3682649671eac2d872781fd9f4bdabede66e22\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6edaf0695f96c8f3afcb2e3eecd74ac991212b69">
+        <dex dex="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_bf372647a375708a89436ce6d1e33d4c00b17186\classes.dex" />
+    </item>
+
+</items>

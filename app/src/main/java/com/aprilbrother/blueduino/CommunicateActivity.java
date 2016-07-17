@@ -54,11 +54,11 @@ public class CommunicateActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// Set text view
-		//setContentView(R.layout.activity_communicate);
+		setContentView(R.layout.activity_communicate);
 
 		// Set Matrix view
-		setContentView(R.layout.activity_visualize);
-		customCanvas = (CanvasView) findViewById(R.id.signature_canvas);
+		//setContentView(R.layout.activity_visualize);
+		//customCanvas = (CanvasView) findViewById(R.id.signature_canvas);
 
 		super.onCreate(savedInstanceState);
 
@@ -182,13 +182,15 @@ public class CommunicateActivity extends Activity {
 						.getByteArrayExtra(UartService.EXTRA_DATA);
 				responseString = new String(txValue);
 				String[] xy = responseString.split(",");
-				float x = Float.parseFloat(xy[0])/2 * customCanvas.width;
-				float y = Float.parseFloat(xy[1])/2 * customCanvas.height;
-				try {
-					//TextView response = (TextView)findViewById(R.id.responseView);
-					//response.append("Response: " + responseString + "\n");
 
-					customCanvas.startTouch(x,y);
+				//float x = Float.parseFloat(xy[0])/2 * customCanvas.width;
+				//float y = Float.parseFloat(xy[1])/2 * customCanvas.height;
+
+				try {
+					TextView response = (TextView)findViewById(R.id.responseView);
+					response.append("Response: " + responseString + "\n");
+
+					//customCanvas.startTouch(x,y);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}

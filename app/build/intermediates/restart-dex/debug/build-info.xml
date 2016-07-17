@@ -4,34 +4,29 @@
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="645214711550721" >
+    timestamp="351471870257330" >
 
     <task
         name="javac"
-        duration="245" />
+        duration="1079" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="20" />
+        duration="646" />
     <task
         name="verifier"
-        duration="4" />
+        duration="195" />
 
     <artifact
-        location="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-        type="DEX" />
+        location="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="642469894108679" >
+    <build timestamp="351471870257330" >
         <artifact
             location="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="645214711550721" >
-        <artifact
-            location="C:\Users\uros.milosevic\AndroidStudioProjects\Blueduino\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>
